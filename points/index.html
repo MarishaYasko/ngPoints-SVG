@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<button>Create polygon sets</button>
+<!-- svg figures will be append here -->
+</body>
+<script>
+    // test data set for Triangle drawing
+    const TEST_DATA = {
+        options: {
+            id: 'triangles-set',
+            svgParams: {
+                width: '100',
+                height: '100'
+            }
+        },
+        data: {
+            type: 'polygon',
+            figure: {
+                points: '200,10 250,190 160,210',
+                cords: {
+                    x: 100,
+                    y: 60
+                },
+                colors: ['lightblue', 'pink'],
+                strokeWidth: '4'
+            }
+        }
+    };
+    const svgElem = DrawPoints(TEST_DATA.options, TEST_DATA.data, 'first-svg');
+    document.body.appendChild(svgElem);
+</script>
+</html>

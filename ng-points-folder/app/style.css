@@ -1,0 +1,53 @@
+/* POINTS MODULE - helper */
+
+#triangle-points, #square-points {
+    margin: auto;
+}
+
+#triangle-points > polygon:nth-child(1) {
+    transform: translate(200px, 100px);
+}
+
+#triangle-points > polygon:nth-child(2) {
+    transform: translate(400px, 140px);
+}
+
+#triangle-points > polygon:nth-child(3) {
+    transform: translate(600px, 180px);
+}
+
+#triangle-points > polygon:nth-child(4) {
+    transform: translate(800px, 220px);
+}
+
+#square-points > rect:nth-child(1) {
+     transform: translate(200px, 100px);
+}
+
+#square-points > rect:nth-child(2) {
+    transform: translate(400px, 140px);
+}
+
+#square-points > rect:nth-child(3) {
+    transform: translate(600px, 100px);
+}
+
+#square-points > rect:nth-child(4) {
+    transform: translate(800px, 180px);
+}
+
+#circle-points > circle:nth-child(1) {
+    transform: translate(200px, 100px);
+}
+
+#circle-points > circle:nth-child(2) {
+    transform: translate(400px, 140px);
+}
+
+#circle-points > circle:nth-child(3) {
+    transform: translate(600px, 100px);
+}
+
+#circle-points > circle:nth-child(4) {
+    transform: translate(800px, 180px);
+}
